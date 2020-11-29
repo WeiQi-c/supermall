@@ -11,9 +11,9 @@
   import GoodsListItem from './GoodsListItem'
 
   export default {
-    name: 'GoodsList',
+    name: "GoodsList",
     components: {
-      GoodsListItem,
+      GoodsListItem
     },
     props: {
       goods: {
@@ -24,7 +24,6 @@
       }
     }
   }
-
 </script>
 
 <style scoped>

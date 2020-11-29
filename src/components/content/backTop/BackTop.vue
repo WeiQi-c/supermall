@@ -6,20 +6,23 @@
 
 <script>
   export default {
-    name: 'BackTop',
+    name: "BackTop"
   }
-
 </script>
 
 <style scoped>
   .back-top {
     position: fixed;
-    bottom: 50px;
-    right: 8px;
+    bottom: 55px;
+    right: 5px;
 
+    z-index: 9;
+
+    width: 45px;
+    height: 45px;
   }
+
   .back-top img {
-    width: 43px;
-    height: 43px;
+    width: 100%;
   }
 </style>
